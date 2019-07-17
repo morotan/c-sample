@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#define MAX_LENGTH 5
+#define MAX_LENGTH 10 
 
 void showData(int*, int);
 
 void main(){
-  int array[MAX_LENGTH] = {5, 2, 3, 1, 4};
+  int array[MAX_LENGTH] = {5, 2, 3, 1, 4, 8, 6, 10, 9, 7};
   int i, j, tmp;
   //先頭の要素のループ
   for(i=0; i < MAX_LENGTH-1; i++){
